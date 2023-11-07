@@ -925,8 +925,8 @@ class FrontControllerCore extends Controller
     public function setMedia()
     {
         $this->context->controller->registerStylesheet('theme-featured-product', '/assets/css/skeletons-93a9cb4de3.css', ['media' => 'all', 'priority' => 9]);
-        $this->context->controller->registerStylesheet('font-css-product', '/assets/css/font-pccom-v2.css', ['media' => 'all', 'priority' => 3]);
         $this->context->controller->registerStylesheet('theme-custom-product', '/assets/css/article-detail-1106a1ae58.css', ['media' => 'all', 'priority' => 10]);
+        $this->context->controller->registerStylesheet('font-css-product', '/assets/css/font-pccom-v2.css', ['media' => 'all', 'priority' => 3]);
         $this->context->controller->registerStylesheet('theme-product', '/assets/css/article-detail-ddd803a0a6.css', ['media' => 'all', 'priority' => 5]);
         //Hoja de estilo vista de productos
         $this->registerStylesheet('theme-main', '/assets/css/theme.css', ['media' => 'all', 'priority' => 50]);

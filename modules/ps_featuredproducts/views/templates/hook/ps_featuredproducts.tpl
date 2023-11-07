@@ -23,77 +23,77 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <section class="featured-products clearfix">
-<div id="recommended-articles" class="container-rendering-layout">
-  <div class="title  article-margin">
+  <div id="recommended-articles" class="container-rendering-layout">
+    <div class="title  article-margin">
     <span>
       <h2>{l s='ARTÍCULOS' d='Shop.Theme.Catalog'}
       <strong> {l s='RECOMENDADOS' d='Shop.Theme.Catalog'} </strong>
       </h2>
     </span>
-  </div>
-  {assign var="productscount" value=$products|count}
+    </div>
+    {assign var="productscount" value=$products|count}
 
-  {foreach from=$products item="product"}
+    {foreach from=$products item="product"}
       {include file="catalog/_partials/miniatures/product.tpl" product=$product}
     {/foreach}
 
-</div>
+  </div>
 </section>
 {*<section class="featured-products clearfix">*}
 
-  {*{assign var="productscount" value=$products|count}*}
-  {*<div class="products products-slick spacing-md-top{if $productscount > 1} products--slickmobile{/if}" data-slick='{strip}*}
-    {*{ldelim}*}
-    {*"slidesToShow": 1,*}
-    {*"slidesToScroll": 1,*}
-    {*"mobileFirst":true,*}
-    {*"arrows":true,*}
-    {*"rows":0,*}
-    {*"responsive": [*}
-      {*{ldelim}*}
-        {*"breakpoint": 992,*}
-        {*"settings":*}
-        {*{if $productscount > 4}*}
-        {*{ldelim}*}
-        {*"arrows":true,*}
-        {*"slidesToShow": 4,*}
-        {*"slidesToScroll": 4,*}
-        {*"arrows":true*}
-        {*{rdelim}*}
-        {*{else}*}
-        {*"unslick"*}
-        {*{/if}*}
-      {*{rdelim},*}
-      {*{ldelim}*}
-        {*"breakpoint": 720,*}
-        {*"settings":*}
-        {*{if $productscount > 3}*}
-        {*{ldelim}*}
-        {*"arrows":true,*}
-        {*"slidesToShow": 3,*}
-        {*"slidesToScroll": 3*}
-        {*{rdelim}*}
-        {*{else}*}
-        {*"unslick"*}
-        {*{/if}*}
-      {*{rdelim},*}
-      {*{ldelim}*}
-        {*"breakpoint": 540,*}
-        {*"settings":*}
-        {*{if $productscount > 2}*}
-        {*{ldelim}*}
-        {*"arrows":true,*}
-        {*"slidesToShow": 2,*}
-        {*"slidesToScroll": 2*}
-        {*{rdelim}*}
-        {*{else}*}
-        {*"unslick"*}
-        {*{/if}*}
-      {*{rdelim}*}
-    {*]{rdelim}{/strip}'>*}
-    {*{foreach from=$products item="product"}*}
-      {*{include file="catalog/_partials/miniatures/product.tpl" product=$product}*}
-    {*{/foreach}*}
-    {*</div>*}
-  {**}
+{*{assign var="productscount" value=$products|count}*}
+{*<div class="products products-slick spacing-md-top{if $productscount > 1} products--slickmobile{/if}" data-slick='{strip}*}
+{*{ldelim}*}
+{*"slidesToShow": 1,*}
+{*"slidesToScroll": 1,*}
+{*"mobileFirst":true,*}
+{*"arrows":true,*}
+{*"rows":0,*}
+{*"responsive": [*}
+{*{ldelim}*}
+{*"breakpoint": 992,*}
+{*"settings":*}
+{*{if $productscount > 4}*}
+{*{ldelim}*}
+{*"arrows":true,*}
+{*"slidesToShow": 4,*}
+{*"slidesToScroll": 4,*}
+{*"arrows":true*}
+{*{rdelim}*}
+{*{else}*}
+{*"unslick"*}
+{*{/if}*}
+{*{rdelim},*}
+{*{ldelim}*}
+{*"breakpoint": 720,*}
+{*"settings":*}
+{*{if $productscount > 3}*}
+{*{ldelim}*}
+{*"arrows":true,*}
+{*"slidesToShow": 3,*}
+{*"slidesToScroll": 3*}
+{*{rdelim}*}
+{*{else}*}
+{*"unslick"*}
+{*{/if}*}
+{*{rdelim},*}
+{*{ldelim}*}
+{*"breakpoint": 540,*}
+{*"settings":*}
+{*{if $productscount > 2}*}
+{*{ldelim}*}
+{*"arrows":true,*}
+{*"slidesToShow": 2,*}
+{*"slidesToScroll": 2*}
+{*{rdelim}*}
+{*{else}*}
+{*"unslick"*}
+{*{/if}*}
+{*{rdelim}*}
+{*]{rdelim}{/strip}'>*}
+{*{foreach from=$products item="product"}*}
+{*{include file="catalog/_partials/miniatures/product.tpl" product=$product}*}
+{*{/foreach}*}
+{*</div>*}
+{**}
 {*</section>*}
