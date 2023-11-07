@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{recommended}prestashop>recommended_af8abbb3f9732bfdbca5d35102296366'] = 'Doporučené produkty';
+$_MODULE['<{recommended}prestashop>recommended_64a4f822f5353f09dfa02f464607e884'] = 'Zobrazí výrobky vybírány ID v nákupním košíku';
+$_MODULE['<{recommended}prestashop>recommended_c888438d14855d7d96a2724ee9c306bd'] = 'Nastavení aktualizovaný';
+$_MODULE['<{recommended}prestashop>recommended_f4f70727dc34561dfde1a3c529b6205c'] = 'Nastavení';
+$_MODULE['<{recommended}prestashop>recommended_c9dc90cd27285af066b3b392762a366e'] = 'Omezit titul...';
+$_MODULE['<{recommended}prestashop>recommended_516a51f1e8a10e56385476d90ab4e21b'] = 'Popis omezení...';
+$_MODULE['<{recommended}prestashop>recommended_f7afd66cc0289810e738b086b2205abb'] = 'Výrobky ID';
+$_MODULE['<{recommended}prestashop>recommended_3baf3a946bf0cd28b490b59c1a1036ee'] = 'Id produkty k dispozici (např.: 1,2,5)';
+$_MODULE['<{recommended}prestashop>recommended_18d4c0f418e5354c069e4b81fe460ae0'] = 'Produkty k dispozici';
+$_MODULE['<{recommended}prestashop>recommended_6206f212266935e73177c15c7f88c6ff'] = 'ID Lang';
+$_MODULE['<{recommended}prestashop>recommended_12f847bb4425ab8c517b9465ab1427cd'] = 'ID jazyka pro export. Nechte prázdné pro automatické rozpoznání (pouze vložit do jiné prestashop úložiště)';
+$_MODULE['<{recommended}prestashop>recommended_32954654ac8fe66a1d09be19001de2d4'] = 'Šířka';
+$_MODULE['<{recommended}prestashop>recommended_eec6c4bdbd339edf8cbea68becb85244'] = 'Výška';
+$_MODULE['<{recommended}prestashop>recommended_bac39878c1766a7a8552263903b9eeb9'] = 'Náhodně';
+$_MODULE['<{recommended}prestashop>recommended_ebf3d9d42804d691d712f778ea57f53b'] = 'Typ obrazu';
+$_MODULE['<{recommended}prestashop>recommended_b4065607655d33ebe36d829f750a83bb'] = 'Zobrazit popis krátké';
+$_MODULE['<{recommended}prestashop>recommended_24061700754f7d862c3e8bd6be6b76f9'] = 'Zobrazit tlačítko koupit';
+$_MODULE['<{recommended}prestashop>recommended_e1a5e653bc356ed6745d6814d50213eb'] = 'Zobrazit cenu';
+$_MODULE['<{recommended}prestashop>recommended_ae284f900f9d6e21ba69144cfc91e41b'] = 'Styl';
+$_MODULE['<{recommended}prestashop>recommended_9788d21d39ec381b75948bae4630d4be'] = 'IFRAME nebo HTML5';
+$_MODULE['<{recommended}prestashop>recommended_368d9ac76af05f714092bc808a426bfc'] = 'Barva pozadí';
+$_MODULE['<{recommended}prestashop>recommended_f5ed5d59c016a8d53f862be1f0ec73a1'] = 'Barva pozadí (výchozí ffffff)';
+$_MODULE['<{recommended}prestashop>recommended_8e269f534167fa721659bfb41d6a78b6'] = 'Barva odkazu';
+$_MODULE['<{recommended}prestashop>recommended_b059c25d669861dba0ff56600407be11'] = 'Barva textu (výchozí hodnota 000000)';
+$_MODULE['<{recommended}prestashop>recommended_c9cc8cce247e49bae79f15173ce97354'] = 'Uložit';
+$_MODULE['<{recommended}prestashop>recommended_510007e259d070182a6fb8cbcbef3ca1'] = 'Živé demo';
+$_MODULE['<{recommended}prestashop>recommended_5cf15a17b3ed13159c46072f0668aee3'] = 'Kód pro vložení';
+$_MODULE['<{recommended}prestashop>recommended_2d0f6b8300be19cf35e89e66f0677f95'] = 'Přidat do košíku';

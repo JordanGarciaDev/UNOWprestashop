@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e25e4ff1-290c-43bf-a823-b31219084ee7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/UnowImportModule.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+              <folding>
+                <element signature="e#6#225#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unowimport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13328">
+              <caret line="788" column="51" selection-start-line="788" selection-start-column="51" selection-end-line="788" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/UnowImportClass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4658">
+              <caret line="278" column="17" selection-start-line="278" selection-start-column="17" selection-end-line="278" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/templates/admin/import_list.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4352">
+              <caret line="256" column="22" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../products.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="24" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>elegantaleasyimport</find>
+      <find>ElegantalEasy</find>
+      <find>Importa/exporta productos y combinaciones fácilmente con solo unos pocos clics. Puede automatizar este proceso utilizando CRON Job e importar el archivo desde la ruta del directorio, HTTP o FTP.</find>
+      <find>https://addons.prestashop.com/en/write-to-developper</find>
+      <find>http://addons.prestashop.com/en/ratings.php</find>
+      <find>$rateModuleUrl</find>
+      <find>icon-file-text-o</find>
+      <find>Import/Export products and combinations easily with just a few clicks. You can automate this process by using CRON Job and import file from directory path, HTTP or FTP.</find>
+      <find>Easy Import Products</find>
+      <find>Features</find>
+      <find>convertToCsv</find>
+      <find>documentationUrls</find>
+      <find>rateModuleUrl</find>
+      <find>elegantal_</find>
+      <find>Reglas de importación</find>
+      <find>Import Settings</find>
+      <find>Separador de valor</find>
+      <find>unow_e08caeac3f80ffa7889cdf1c8f30111f</find>
+      <find>Reference</find>
+      <find>mod='unow'</find>
+      <find>s='S</find>
+      <find>l s='Sample Files'</find>
+      <find>Import method</find>
+      <find>name</find>
+      <find>Upload import file</find>
+      <find>Enable CRON job</find>
+      <find>product_range_to_import</find>
+      <find>'For example'</find>
+      <find>shipping_package_size_unit</find>
+      <find>version</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Importa tus productos fácilmente desde archivos CSV</replace>
+      <replace>UnowImportar &lt;ing.jordangarcia@gmail.com&gt;</replace>
+      <replace>(c) 2023, UnowImportar &lt;www.jordangarciadev.com&gt;</replace>
+      <replace>* @license   Proprietary License - Prueba tecnica para vacante de prestashop Webimpacto</replace>
+      <replace>UnowImport</replace>
+      <replace>unow</replace>
+      <replace>Unow</replace>
+      <replace>Importa productos fácilmente con solo unos pocos clics. Modulo creado para webimpacto (Prueba Técnica).</replace>
+      <replace>Importar/exportar productos fácilmente con solo unos pocos clics. Modulo creado para webimpacto</replace>
+      <replace>Importar productos Webimpacto</replace>
+      <replace>unow_</replace>
+      <replace>mod='unowimport'</replace>
+      <replace>'Por ejemplo'</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\YINKER\Documents\Downloads\modulo UnowImport</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/elegantaleasyimport.php" />
+        <option value="$PROJECT_DIR$/classes/UnowImportModule.php" />
+        <option value="$PROJECT_DIR$/views/templates/admin/import_list.tpl" />
+        <option value="$PROJECT_DIR$/translations/es.php" />
+        <option value="$PROJECT_DIR$/classes/UnowImportClass.php" />
+        <option value="$PROJECT_DIR$/unowimport.php" />
+        <option value="C:/xampp/htdocs/prestashop/vendor/smarty/smarty/libs/plugins/modifier.escape.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="150" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MODULOS/weather" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e25e4ff1-290c-43bf-a823-b31219084ee7" name="Default Changelist" comment="" />
+      <created>1698364040614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698364040614</updated>
+      <workItem from="1698364044445" duration="941000" />
+      <workItem from="1698365450208" duration="4441000" />
+      <workItem from="1698419018052" duration="2416000" />
+      <workItem from="1698431044059" duration="2298000" />
+      <workItem from="1698499183624" duration="594000" />
+      <workItem from="1698596371416" duration="1116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11806000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="150" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/elegantaleasyimport.php" />
+    <entry file="file://$PROJECT_DIR$/views/templates/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates/admin/_configure/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/UnowImportJson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/es.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="102" column="65" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../import.tpl" />
+    <entry file="file://$PROJECT_DIR$/../import_list.tpl" />
+    <entry file="file://C:/xampp/htdocs/prestashop/var/cache/dev/ContainerR1kqhmb/getForm_Extension_MultistoreConfigurationService.php" />
+    <entry file="file://$PROJECT_DIR$/../sample_import_products.csv" />
+    <entry file="file://$PROJECT_DIR$/unowimport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13328">
+          <caret line="788" column="51" selection-start-line="788" selection-start-column="51" selection-end-line="788" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/UnowImportClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4658">
+          <caret line="278" column="17" selection-start-line="278" selection-start-column="17" selection-end-line="278" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates/admin/import_list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4352">
+          <caret line="256" column="22" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../products.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/prestashop/vendor/smarty/smarty/libs/plugins/modifier.escape.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="250" column="35" selection-start-line="250" selection-start-column="35" selection-end-line="250" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/UnowImportModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#225#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

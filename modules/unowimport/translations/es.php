@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{unowimport}prestashop>unowimport_068f80c7519d0528fb08e82137a72131'] = 'Productos';
+$_MODULE['<{unowimport}prestashop>unowimport_84968d5f38a6e847e37b61f36d8c4ceb'] = 'Codifica una cadena ISO-8859-1 en UTF-8. Debe habilitar esta opción si su archivo está codificado en ISO-8859-1.';
+$_MODULE['<{unowimport}prestashop>unowimport_a22645bb48b7bc050a1de2dccbb49bc8'] = 'Registro no encontrado.';
+$_MODULE['<{unowimport}prestashop>unowimport_7969acb69bd044d1c7b76957ec36fa07'] = 'El estado cambió exitosamente.';
+$_MODULE['<{unowimport}prestashop>unowimport_1a0d1d5b75d5e7e1901dacdfba6beda9'] = 'Se reinició la regla de importación.';
+$_MODULE['<{unowimport}prestashop>unowimport_e60ebbc951775afe413c2b1207843d0a'] = 'Regla duplicada exitosamente.';
+$_MODULE['<{unowimport}prestashop>unowimport_900039266dc6278dd2d8f7e6bed9e27d'] = 'Regla eliminada exitosamente.';
+$_MODULE['<{unowimport}prestashop>unowimport_a3adadfe690ef1d60027f34e4f6b2620'] = 'Registro eliminado exitosamente.';
+$_MODULE['<{unowimport}prestashop>unowimport_48efc024f9ec3241aebd0251364f3387'] = 'Buscar producto por';
+$_MODULE['<{unowimport}prestashop>unowimport_755c15422cee62bea07f358e506a0ddd'] = 'PRECAUCIÓN: Esto eliminará el producto.';
+$_MODULE['<{unowimport}prestashop>unowimport_628a5182714a0eab4aa6762fb8113ea8'] = 'Haga coincidir los datos del archivo con los datos del producto';
+$_MODULE['<{unowimport}prestashop>unowimport_39bf4d6770e8bc3c7b2b47d5e38ed005'] = 'Guardar e importar';
+$_MODULE['<{unowimport}prestashop>unowimport_bd91f5ef674e3735ddca253adf127854'] = 'Guardar sin salir';
+$_MODULE['<{unowimport}prestashop>unowimport_9565814d5d564fa898dd6111b94fae0b'] = 'Pagina principal';
+$_MODULE['<{unowimport}prestashop>unowimport_0557fa923dcee4d0f86b1409f5c2167f'] = 'Atrás';
+$_MODULE['<{unowimport}prestashop>unowimport_7b239108092f9e46e81753b8c2b61d41'] = 'Guardar y administrar categorías';
+$_MODULE['<{unowimport}prestashop>unowimport_df4ff32a6c8a8818fcba3bf001000466'] = 'Categorías guardadas exitosamente.';
+$_MODULE['<{unowimport}prestashop>unowimport_f705c128c471ff4e657c44559db2e1d9'] = 'Puede administrar categorías solo cuando selecciona categorías en la página coincidente.';
+$_MODULE['<{unowimport}prestashop>unowimport_07b546172031d7ad515cf781e82ec658'] = 'Gestionar el mapeo de categorías.';
+$_MODULE['<{unowimport}prestashop>unowimport_a0a05ecc2e2397b513f4de9dc88f1fe3'] = 'Separador de subcategorías múltiples';
+$_MODULE['<{unowimport}prestashop>unowimport_2c276be9c8838bd3e7112eb558ba8309'] = 'Por ejemplo, si sus categorías están escritas de la siguiente manera:';
+$_MODULE['<{unowimport}prestashop>unowimport_af1b98adf7f686b84cd0b443e022b7a0'] = 'Categorías';
+$_MODULE['<{unowimport}prestashop>unowimport_91b442d385b54e1418d81adc34871053'] = 'Seleccionado';
+$_MODULE['<{unowimport}prestashop>unowimport_b56c3bda503a8dc4be356edb0cc31793'] = 'Desplegar todo';
+$_MODULE['<{unowimport}prestashop>unowimport_5ffd7a335dd836b3373f5ec570a58bdc'] = 'Expandir todo';
+$_MODULE['<{unowimport}prestashop>unowimport_5e9df908eafa83cb51c0a3720e8348c7'] = 'Comprobar todo';
+$_MODULE['<{unowimport}prestashop>unowimport_9747d23c8cc358c5ef78c51e59cd6817'] = 'Desmarcar todo';
+$_MODULE['<{unowimport}prestashop>unowimport_240a0b2ee22e6e26fb25de8ae68efbe6'] = 'Configuración de exportación';
+$_MODULE['<{unowimport}prestashop>unowimport_cf51f3cc42d75dce314ff4f81344e396'] = 'Guardar y siguiente';
+$_MODULE['<{unowimport}prestashop>unowimport_a01c5e5a4b278e21b6453cbdcf3b2a2c'] = 'Seleccione qué exportar';
+$_MODULE['<{unowimport}prestashop>unowimport_7f4cbf9258feb3ac9eeb552b0280bdf3'] = 'Guardar y exportar';
+$_MODULE['<{unowimport}prestashop>unowimport_d7e4277706be29435f8f7e0fa65d8b7c'] = 'Guardar y CRON';
+$_MODULE['<{unowimport}prestashop>unowimport_6f091458bea6be967354a13e2e378fa5'] = 'Reglas de exportación';

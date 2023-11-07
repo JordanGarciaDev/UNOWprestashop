@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+h3.page-product-heading {
+    position: inherit;
+   font-size: .875rem; margin-top: 20px; border-radius: 0;
+}
+.page-product-heading {
+    margin-top: 20px !important;
+}
+
+.stytrue {
+    position: relative;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #F0F6F9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+}
+
+.styfalse {
+    position: relative;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #F0F6F9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    list-style: none;
+    width: 150px;
+}
+
+.styfalse:hover {
+    background: #fff;
+}
+
+.repro {
+    border: 1px solid #ccc;
+    background: #ffffff;
+    text-align: center;
+    padding: 4px;
+    margin: 5px;
+    height: autopx;
+    transition: All 1s ease;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+}
+
+.repro:hover {
+    border: 1px solid #eee;
+    background: #fcfcfc;
+    transition: All 1s ease;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+}
+
+.repro img {
+    width: 98%
+}
+
+.repro .price {
+    color: red;
+    font-weight: bolder;
+    font-size: 15px
+}
+
+#rc {
+    width: 100%;
+    position: relative;
+    float: left;
+    padding-top: 13px;
+}
+
+#rc p {
+    font-size: 13px;
+}
+
+#rc2 {
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+@media screen and (max-width: 860px) {
+    .repro {
+        height: auto;
+        width: auto
+    }
+}
