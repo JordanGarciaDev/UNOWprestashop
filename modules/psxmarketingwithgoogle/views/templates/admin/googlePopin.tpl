@@ -65,8 +65,8 @@
           height: 80px;
           height: 5rem;
           border-radius: 5rem;
-          border-right-color: #3ed2f0;
-          border-bottom-color: #3ed2f0;
+          border-right-color: #ff6000b8;
+          border-bottom-color: #ff6000b8;
           border-width: 4px;
           border-style: solid;
           font-size: 0;

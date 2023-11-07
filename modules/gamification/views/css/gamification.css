@@ -13,7 +13,7 @@
   top: -.3rem;
   right: .2rem;
   color: #fff;
-  background: #25b9d7;
+  background: #ff6000;
   font-size: 10px;
   font-size: .625rem;
   line-height: 12px;
@@ -71,7 +71,7 @@
   height: 8px;
   background: #f0fbff;
 }
-#gamification_notif_wrapper.notifs_panel .progress .progress-bar.progress-bar-info{background: #25b9d7}
+#gamification_notif_wrapper.notifs_panel .progress .progress-bar.progress-bar-info{background: #ff6000}
 
 #gamification_notif_wrapper.notifs_panel .nav-tabs {border-bottom: 1px solid #fff}
 #gamification_notif_wrapper.notifs_panel .nav-item {
@@ -83,10 +83,10 @@
 }
 #gamification_notif_wrapper.notifs_panel .nav-item.active a {
   border-top: 0;
-  border-bottom: 3px solid #25b9d7;
-  color: #25b9d7;
+  border-bottom: 3px solid #ff6000;
+  color: #ff6000;
 }
-#gamification_notif_wrapper.notifs_panel .nav-item:hover a {color: #25b9d7;}
+#gamification_notif_wrapper.notifs_panel .nav-item:hover a {color: #ff6000;}
 #gamification_notif_wrapper.notifs_panel .nav-item .nav-link {
   color: #6c868e;
   font-weight: 400;
@@ -118,11 +118,11 @@
 }
 #gamification_notif_wrapper .panel-footer a{
   font-size: 13px;
-  color: #25b9d7;
+  color: #ff6000;
   font-weight: 600;
 }
 #gamification_notif_wrapper .panel-footer a i{
-  color: #25b9d7 !important;
+  color: #ff6000 !important;
   font-size: 20px;
 }
 
@@ -136,7 +136,7 @@
 }
 
 #gamification_notif_wrapper .notifs_panel_header p{font-weight: bold;}
-#gamification_notif_wrapper .notifs_panel_header p span.notifs-level{color: #25b9d7; float: right;}
+#gamification_notif_wrapper .notifs_panel_header p span.notifs-level{color: #ff6000; float: right;}
 
 .gamification_badges_title {
   margin-top: 10px

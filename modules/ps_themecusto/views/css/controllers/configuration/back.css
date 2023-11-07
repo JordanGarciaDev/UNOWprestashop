@@ -87,7 +87,7 @@ body.adminpsthemecustoconfiguration {
 }
 #psthemecusto .configuration-rectangle.active,
 #psthemecusto .configuration-rectangle:hover {
-    border-color: #25b9d7;
+    border-color: #ff6000;
     -webkit-transition: border-color .2s;
     transition: border-color .2s;
 }
@@ -121,7 +121,7 @@ body.adminpsthemecustoconfiguration {
 #psthemecusto .configuration-rectangle:hover .js-module-name,
 #psthemecusto .configuration-rectangle .js-module-name.active,
 #psthemecusto .configuration-rectangle .js-module-name:hover {
-    background-color: #25b9d7;
+    background-color: #ff6000;
     color: #fff;
     opacity: 1;
     -webkit-transition: opacity .2s, color .2s, background-color .2s, -webkit-transform .2s;
@@ -180,22 +180,22 @@ button.dropdown-item {
 }
 .dropdown-item:focus,
 .dropdown-item:hover {
-    color: #25b9d7;
+    color: #ff6000;
     text-decoration: none;
     background-color: #fff;
 }
 
 .btn-outline-primary {
-    color: #25b9d7 !important;
+    color: #ff6000 !important;
     background-color: transparent !important;
     background-image: none !important;
-    border-color: #25b9d7 !important;
+    border-color: #ff6000 !important;
 }
 
 .btn-outline-primary:hover {
     color: #fff !important;
-    background-color: #3ed2f0 !important;
-    border-color: #3ed2f0 !important;
+    background-color: #ff6000b8 !important;
+    border-color: #ff6000b8 !important;
 }
 .no-padding{
     padding: 0 !important;
@@ -207,7 +207,7 @@ button.dropdown-item {
 
 .loader {
     border: 4px solid #f3f3f3;
-    border-top: 4px solid #25b9d7;
+    border-top: 4px solid #ff6000;
     width: 31px;
     height: 31px;
 }
@@ -234,7 +234,7 @@ button.dropdown-item {
 }
 .dropdown-menu>li a:hover {
     text-decoration: none;
-    color: #3ed2f0;
+    color: #ff6000b8;
 }
 .material-icons.up{
     display: none;
@@ -263,7 +263,7 @@ button.dropdown-item {
 }
 #content #psthemecusto .panel .panel-heading .btn.btn-primary.selected {
     color: #FFFFFF;
-    background-color: #25b9d7!important;
-    border-color: #25b9d7!important;
+    background-color: #ff6000!important;
+    border-color: #ff6000!important;
 }
 

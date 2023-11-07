@@ -149,7 +149,7 @@ export default {
     font-weight: 900;
 }
 #dialog-preview-addons .el-dialog__headerbtn .el-dialog__close:hover {
-    color: #25B9D7;
+    color: #ff6000;
 }
 
 #screenshot-preview-addons.el-carousel {
@@ -164,14 +164,14 @@ export default {
     position: fixed;
 }
 #screenshot-preview-addons .el-carousel__arrow--left:hover {
-    color: #25B9D7;
+    color: #ff6000;
 }
 #screenshot-preview-addons .el-carousel__arrow--right {
     right: -50px !important;
     position: fixed;
 }
 #screenshot-preview-addons .el-carousel__arrow--right:hover {
-    color: #25B9D7;
+    color: #ff6000;
 }
 #screenshot-preview-addons .el-carousel__arrow {
     background-color: unset !important;
@@ -184,13 +184,13 @@ export default {
     font-weight: 900 !important;
 }
 #screenshot-preview-addons .el-icon-arrow-left:hover {
-    color: #25B9D7;
+    color: #ff6000;
 }
 #screenshot-preview-addons .el-icon-arrow-right {
     font-size: 32px !important;
     font-weight: 900 !important;
 }
 #screenshot-preview-addons .el-icon-arrow-right:hover {
-    color: #25B9D7;
+    color: #ff6000;
 }
 </style>

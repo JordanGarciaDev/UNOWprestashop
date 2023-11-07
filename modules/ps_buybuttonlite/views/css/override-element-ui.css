@@ -40,11 +40,11 @@
 }
 
 .el-button--text {
-    color: #25b9d7 !important;
+    color: #ff6000 !important;
 }
 
 .el-button--text:hover {
-    color: #3ed2f0 !important;
+    color: #ff6000b8 !important;
 }
 
 .el-button--text.is-active, .el-button--text:active {
@@ -53,14 +53,14 @@
 
 .el-button--primary {
     color: #fff !important;
-    background-color: #25b9d7 !important;
-    border-color: #25b9d7 !important;
+    background-color: #ff6000 !important;
+    border-color: #ff6000 !important;
 }
 
 .el-button--primary:hover {
     color: #fff !important;
-    background-color: #3ed2f0 !important;
-    border-color: #3ed2f0 !important;
+    background-color: #ff6000b8 !important;
+    border-color: #ff6000b8 !important;
 }
 
 .el-button--primary.is-active, .el-button--primary:active {
@@ -95,15 +95,15 @@
 }
 
 .el-button--info.is-plain:hover {
-    color: #25b9d7 !important;
+    color: #ff6000 !important;
     background-color: #fff !important;
-    border-color: #25b9d7 !important;
+    border-color: #ff6000 !important;
 }
 
 .el-button--info.is-plain.is-active, .el-button--info.is-plain:active {
     color: #19a9c6 !important;
     background-color: #f6fdff !important;
-    border-color: #3ed2f0 !important;
+    border-color: #ff6000b8 !important;
 }
 /* ###################### */
 
@@ -128,7 +128,7 @@
 }
 
 .el-select .el-input.is-focus .el-input__inner {
-    border-color: #3ed2f0 !important;
+    border-color: #ff6000b8 !important;
 }
 
 .el-form-item.is-error .el-input__inner, .el-form-item.is-error .el-input__inner:focus, .el-form-item.is-error .el-textarea__inner, .el-form-item.is-error .el-textarea__inner:focus, .el-message-box__input input.invalid, .el-message-box__input input.invalid:focus {
@@ -147,7 +147,7 @@
 
 .el-input__inner:focus {
     outline: none!important;
-    border-color: #25B9D7 !important;
+    border-color: #ff6000 !important;
 }
 
 .el-input--prefix .el-input__inner {
@@ -159,30 +159,30 @@
 }
 
 .el-select-dropdown__item.selected {
-    color: #25B9D7 !important;
+    color: #ff6000 !important;
 }
 
 .el-checkbox__input.is-checked+.el-checkbox__label {
-    color: #25B9D7 !important;
+    color: #ff6000 !important;
 }
 
 .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
-    background-color: #25B9D7 !important;
-    border-color: #25B9D7 !important;
+    background-color: #ff6000 !important;
+    border-color: #ff6000 !important;
 }
 
 .el-radio__input.is-checked+.el-radio__label {
-    color: #25B9D7 !important;
+    color: #ff6000 !important;
 }
 
 .el-radio__input.is-checked .el-radio__inner {
-    border-color: #25B9D7 !important;
-    background: #25B9D7 !important;
+    border-color: #ff6000 !important;
+    background: #ff6000 !important;
 }
 
 .el-switch.is-checked .el-switch__core {
     border-color: 2px solid #bbcdd2 !important;
-    background-color: #25B9D7 !important;
+    background-color: #ff6000 !important;
 }
 
 .el-switch__core {
@@ -236,7 +236,7 @@
 .el-switch.is-checked .el-switch__core:after{
     font-family: Material Icons;
     content: "check" !important;
-    color: #25b9d7 !important;
+    color: #ff6000 !important;
     transform: rotate(0deg) !important;
 }
 
@@ -249,11 +249,11 @@
 }
 
 .el-slider__bar {
-    background-color: #25b9d7 !important;
+    background-color: #ff6000 !important;
 }
 
 .el-slider__button {
-    border: 2px solid #25b9d7 !important;
+    border: 2px solid #ff6000 !important;
 }
 
 .el-slider__button-wrapper {
@@ -316,7 +316,7 @@
 }
 .el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
     color: #fff !important;
-    background-color: #25b9d7 !important;
+    background-color: #ff6000 !important;
 }
 .el-autocomplete-suggestion__wrap {
     border: 1px solid #bbcdd2 !important;
@@ -331,7 +331,7 @@
 }
 .el-autocomplete-suggestion li.highlighted, .el-autocomplete-suggestion li:hover {
     color: #fff !important;
-    background-color: #25b9d7 !important;
+    background-color: #ff6000 !important;
 }
 .el-autocomplete-suggestion.el-popper[x-placement^=bottom] {
     margin-top: 4px !important;
@@ -354,7 +354,7 @@
 
 .el-dropdown-menu__item:hover {
     color: #fff !important;
-    background-color: #25b9d7 !important;
+    background-color: #ff6000 !important;
 }
 
 .el-pagination.is-background .el-pager li:not(.disabled).active {

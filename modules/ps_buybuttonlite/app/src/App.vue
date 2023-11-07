@@ -204,7 +204,7 @@ export default {
 }
 .features > .material-icons {
     font-size:18px;
-    color: #25b9d7;
+    color: #ff6000;
     vertical-align: bottom;
 }
 </style>

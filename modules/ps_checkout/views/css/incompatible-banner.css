@@ -99,7 +99,7 @@
     font-size: .875rem !important;
     line-height: 1.5 !important;
     font-weight: 600 !important;
-    color: #25B9D7 !important;
+    color: #ff6000 !important;
 }
 
 .banner-link-icon {
@@ -111,12 +111,12 @@
 }
 
 a.banner-link:hover {
-    color: #25B9D7 !important;
+    color: #ff6000 !important;
 }
 
 .button-link {
     /* margin-top: 1.5rem !important; */
-    background-color: #25b9d7;
+    background-color: #ff6000;
     padding: .375rem .838rem;
     color: #ffffff !important;
     font-size: .875rem;
@@ -124,6 +124,6 @@ a.banner-link:hover {
 }
 
 .button-link:hover {
-    background-color: #3ed2f0;
+    background-color: #ff6000b8;
     text-decoration: underline;
 }

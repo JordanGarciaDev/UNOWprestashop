@@ -23,8 +23,8 @@
     height: 30px;
     width: 70px;
     background: white;
-    border: 1px solid #25B9D7;
-    color: #25B9D7;
+    border: 1px solid #ff6000;
+    color: #ff6000;
     border-radius: 5px;
     -webkit-transition: color .6s ease-in;
     -moz-transition: color .6s ease-in;
@@ -33,8 +33,8 @@
 }
 
 .light-button:hover {
-    border-color: #3ED2F0;
-    color: #3ED2F0;
+    border-color: #ff6000b8;
+    color: #ff6000b8;
 }
 
 .top-menu-separator {

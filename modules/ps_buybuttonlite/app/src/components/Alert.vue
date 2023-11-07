@@ -86,12 +86,12 @@ export default {
     flex-direction: column;
 }
 .addons-alert.info {
-    border-color: #25b9d7;
+    border-color: #ff6000;
 }
 .info:before {
     content: "\E88F";
     background-color: #dff5f9;
-    color: #25b9d7;
+    color: #ff6000;
 }
 .addons-alert.warning {
     border-color: #cd9321;
@@ -137,7 +137,7 @@ export default {
     // opacity: .5;
 }
 .addons-alert.info .close-addons-alert {
-    color: #25b9d7 !important;
+    color: #ff6000 !important;
 }
 .addons-alert.success .close-addons-alert {
     color: #70b580 !important;

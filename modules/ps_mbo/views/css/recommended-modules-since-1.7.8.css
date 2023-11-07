@@ -41,7 +41,7 @@
  #main #content #modules_list_container #modules_list_container_tab_modal .alert-addons .material-icons,
  #main-div #recommended-modules-container .alert-addons .material-icons,
  #main-div #modules_list_container_tab_modal .alert-addons .material-icons {
-   color: #25b9d7;
+   color: #ff6000;
    margin-left: 5px;
    font-size: medium;
    
@@ -64,7 +64,7 @@
  #content #modules_list_container_tab_modal .nav-tabs .nav-item.active .nav-link,
  #modules_list_container_tab_modal .nav-tabs .nav-item.active .nav-link.active{
    border-top: none !important;
-   border-bottom: 3px solid #25b9d7 !important ;
+   border-bottom: 3px solid #ff6000 !important ;
  }
 
 
@@ -73,7 +73,7 @@
  #content.bootstrap .nav-tabs .nav-link.active {
    color: #363a41;
    background-color: #fff;
-   border-color: #25b9d7;
+   border-color: #ff6000;
  }
  
  #content.bootstrap .nav-tabs,
@@ -117,7 +117,7 @@
  
  #content.bootstrap #modules_list_container_content .dropdown-item:focus,
  #content.bootstrap #modules_list_container_content .dropdown-item:hover {
-   color: #25b9d7;
+   color: #ff6000;
    text-decoration: none;
    background-color: #fff;
  }
@@ -130,8 +130,8 @@
    height: 40px;
    height: 2.5rem;
    border-radius: 2.5rem;
-   border-right-color: #25b9d7;
-   border-bottom-color: #25b9d7;
+   border-right-color: #ff6000;
+   border-bottom-color: #ff6000;
    border-width: 3px;
    border-width: 0.1875rem;
    border-style: solid;

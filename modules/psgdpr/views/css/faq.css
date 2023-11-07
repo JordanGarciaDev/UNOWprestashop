@@ -10,10 +10,10 @@
     cursor: pointer;
 }
 #faq span.faq-h2:hover {
-    color: #25B9D7;
+    color: #ff6000;
 }
 #faq span.faq-h2.faq-open {
-    color: #25B9D7;
+    color: #ff6000;
     font-weight: bold;
 }
 #faq span.faq-h2 i {
