@@ -25,7 +25,18 @@
 {extends file=$layout}
 
 {block name='content'}
-
+  <style>
+    .cart-free-shipping {
+      background: #0c0c0c;
+      opacity: .85;
+      border-radius: 4px;
+      color: #f0f0f0;
+      margin-bottom: 18px;
+    }
+    .alert {
+      padding: 0.6rem 1.3rem!important;
+    }
+  </style>
   <section id="main">
     <div class="cart-grid row">
 
@@ -35,6 +46,10 @@
         <!-- cart products detailed -->
         <div class="card cart-container mb-3">
             <h1 class="card-header">{l s='Shopping Cart' d='Shop.Theme.Checkout'}</h1>
+          <div class="alert cart-free-shipping"><p>🎁
+              <b>¡Aprovecha!</b>
+              Durante esta semana, a partir de 100€ los portes son gratuitos.
+              <a data-toggle="modal" data-target="#modal-envio-gratis">Ver condiciones.</a></p></div>
           <div class="card-body cart__card-body js-cart__card-body">
             <div class="cart__card-loader"><div class="spinner-border" role="status"><span class="sr-only">{l s='Loading...' d='Shop.Theme.Global'}</span></div></div>
           {block name='cart_overview'}
@@ -53,37 +68,65 @@
         {block name='hook_shopping_cart_footer'}
           {hook h='displayShoppingCartFooter'}
         {/block}
-      </div>
 
-      <!-- Right Block: cart subtotal & cart total -->
-      <div class="cart-grid-right col-12 col-lg-4 mt-3 mt-lg-0">
 
-        {block name='cart_summary'}
-          <div class="card cart-summary mb-5">
-            <div class="card-body card-body--summary">
-            {block name='hook_shopping_cart'}
-              {hook h='displayShoppingCart'}
-            {/block}
-
-            {block name='cart_totals'}
-              {include file='checkout/_partials/cart-detailed-totals.tpl' cart=$cart}
-            {/block}
-            </div>
-            <div class="card-footer">
-            {block name='cart_actions'}
-              {include file='checkout/_partials/cart-detailed-actions.tpl' cart=$cart}
-            {/block}
-            </div>
-
+      <div class="">
+        <div class="col-xs-12 col-sm-6 col-md-8">
+          <div class="proceso-pago__encabezado-listado">
+            <strong>Formas de Pago</strong>
           </div>
-        {/block}
+          <hr>
+          <br>
+          <img class="icon"
+               src="https://web.archive.org/web/20210813152635im_/https://cdn.pccomponentes.com/img/footer/proceso-pago/54x32-VisaGray.svg"
+               alt="#"><img class="icon"
+                            src="https://web.archive.org/web/20210813152635im_/https://cdn.pccomponentes.com/img/footer/proceso-pago/maestro.png"
+                            alt="#"><img class="icon"
+                                         src="https://web.archive.org/web/20210813152635im_/https://cdn.pccomponentes.com/img/footer/proceso-pago/master.png"
+                                         alt="#"><img class="icon"
+                                                      src="https://web.archive.org/web/20210813152635im_/https://cdn.pccomponentes.com/img/footer/proceso-pago/dolar.png"
+                                                      alt="#"></div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="proceso-pago__encabezado-listado">
+            100% Seguridad
+          </div>
+          <hr>
 
-        {block name='hook_reassurance'}
-          {hook h='displayReassurance'}
-        {/block}
-
+          <img class="img-fluid p-y-1 pull-xs-left"
+               src="https://web.archive.org/web/20210813152635im_/https://cdn.pccomponentes.com/img/footer/proceso-pago/ssl.png"
+               alt="#">
+          <img class="img-fluid m-l-1 pull-xs-left" src="https://web.archive.org/web/20210813152635im_/https://cdn.pccomponentes.com/img/footer/proceso-pago/sello-yws.png" alt="#">
+        </div>
+      </div>
       </div>
 
+
+      <div class="col-xs-12 col-md-4 col-lg-4 cart-mine__action">
+        <div class="info-pago m-b-1">
+          <div class="ticket-resume-content">
+            <div id="detector-scroll-ticket"></div>
+            <div id="ticket-pago" class="ticket-pago">
+              <div class="ticket-pago__desglose">
+                <div class="ticket-pago__desglose__cart-premium-add-ons">
+                  <div class="js-premium-conditions-no-premium-no">
+                    {block name='hook_shopping_cart'}
+                      {hook h='displayShoppingCart'}
+                    {/block}
+
+                    {block name='cart_totals'}
+                      {include file='checkout/_partials/cart-detailed-totals.tpl' cart=$cart}
+                    {/block}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          {block name='cart_actions'}
+            {include file='checkout/_partials/cart-detailed-actions.tpl' cart=$cart}
+          {/block}
+        </div>
+      </div>
     </div>
   </section>
 {/block}
