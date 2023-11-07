@@ -63,6 +63,8 @@
                 </svg>
                </span>
             </span>
+
+
             <div class="recommended-pack__nav-hover-content">
                 <a class="recommended-pack__option-details" target="_self" href="{$product.url}">
                 <span class="c-icon c-icon--eye">
