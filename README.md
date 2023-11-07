@@ -2,7 +2,8 @@
 Prueba Tecica Prestashop, Unow &amp; Web Impacto  Desarrollado por Jordan G.
 
 Usuario: test@unow.com  
-Contraseña: 12345678
+Contraseña: 12345678  
+URL ADMIN: (http://localhost/prestashopUNOW_NEW/Admin509fioyje/) 
 
 
 # INSTRUCCIONES
