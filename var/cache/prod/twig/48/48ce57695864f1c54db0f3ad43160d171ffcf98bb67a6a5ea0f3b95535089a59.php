@@ -260,6 +260,6 @@ class __TwigTemplate_e587db9c21076e55c4406c98bb1b653c8a5ca6401c419836f4d2b02007d
 
     public function getSourceContext()
     {
-        return new Source("", "@PrestaShop/Admin/layout.html.twig", "C:\\xampp\\htdocs\\prestashopUNOW_NEW\\src\\PrestaShopBundle\\Resources\\views\\Admin\\layout.html.twig");
+        return new Source("", "@PrestaShop/Admin/layout.html.twig", "C:\\xampp\\htdocs\\UNOWprestashop\\src\\PrestaShopBundle\\Resources\\views\\Admin\\layout.html.twig");
     }
 }

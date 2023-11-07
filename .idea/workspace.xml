@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9c6dae9-bfcf-46ee-a94a-7fb2bbaaf8f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/themes/default/css/bundle/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/themes/default/css/bundle/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/themes/default/public/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/themes/default/public/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tiny_mce/skins/prestashop/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/tiny_mce/skins/prestashop/content.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/blockreassurance/_dev/back/back.scss" beforeDir="false" afterPath="$PROJECT_DIR$/modules/blockreassurance/_dev/back/back.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/blockreassurance/views/dist/back.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/blockreassurance/views/dist/back.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/psgdpr/views/css/back.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psgdpr/views/css/back.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/psgdpr/views/templates/admin/tabs/help.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/modules/psgdpr/views/templates/admin/tabs/help.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/unowimport/views/css/unowimport-back23.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/unowimport/views/css/unowimport-back23.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/unowimport/views/templates/admin/_configure/helpers/form/form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/modules/unowimport/views/templates/admin/_configure/helpers/form/form.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/controller/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/controller/FrontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret column="79958" lean-forward="true" selection-start-column="79958" selection-end-column="79958" />
+            <state relative-caret-position="115">
+              <caret column="157783" selection-start-column="157783" selection-end-column="157783" />
               <folding>
                 <element signature="e#22452#22703#2" expanded="true" />
                 <element signature="e#23300#23470#1" expanded="true" />
@@ -45,21 +38,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/controller/FrontController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="927" column="142" selection-start-line="927" selection-start-column="141" selection-end-line="927" selection-end-column="142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product-des</find>
-      <find>quantity_wanted</find>
-      <find>add-to-car</find>
-      <find>cantidad</find>
-      <find>quanty</find>
       <find>product_quantity</find>
       <find>quantity</find>
       <find>hook h='displayProductActions'</find>
       <find>add-to-cart-or-refresh</find>
       <find>.modal-dialog</find>
-      <find>modal-dialog</find>
       <find>.modal.show</find>
       <find>article-detail-1106a1ae58.css</find>
       <find>.modal</find>
@@ -79,9 +75,16 @@
       <find>article-comments</find>
       <find>/_partials/miniatures/product.tpl</find>
       <find>#00aff0</find>
+      <find>blockcart-modal</find>
+      <find>modal-dialog</find>
+      <find>.modal-content</find>
+      <find>HIstorialPrecios</find>
+      <find>theme.css</find>
+      <find>.modal-body{</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>#ff6000</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\prestashopUNOW_NEW</dir>
@@ -106,9 +109,7 @@
         <option value="$PROJECT_DIR$/../prestashopUNOW/themes/classic-rocket/templates/catalog/_partials/product-add-to-cart.tpl" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/assets/css/article-detail-1106a1ae58.css" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/assets/css/article-detail-ddd803a0a6.css" />
-        <option value="$PROJECT_DIR$/classes/controller/FrontController.php" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/product-description.tpl" />
-        <option value="$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css" />
         <option value="$PROJECT_DIR$/../prestashop/themes/classic-rocket/templates/catalog_old/_partials/product-add-to-cart.tpl" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/product-add-to-cart.tpl" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/product-prices.tpl" />
@@ -117,6 +118,8 @@
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/miniatures/product.tpl" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/product-details.tpl" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/product-tabs.tpl" />
+        <option value="$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css" />
+        <option value="$PROJECT_DIR$/classes/controller/FrontController.php" />
       </list>
     </option>
   </component>
@@ -176,18 +179,18 @@
       <option name="presentableId" value="Default" />
       <updated>1699315375481</updated>
       <workItem from="1699315379844" duration="18393000" />
-      <workItem from="1699364188012" duration="526000" />
+      <workItem from="1699364188012" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18919000" />
+    <option name="totallyTimeSpent" value="20120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22147651" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,13 +342,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/catalog_old/_partials/product-details.tpl" />
-    <entry file="file://$PROJECT_DIR$/classes/controller/FrontController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="930" column="108" selection-start-line="930" selection-start-column="106" selection-end-line="930" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/catalog_old/_partials/product-add-to-cart.tpl" />
     <entry file="file://$PROJECT_DIR$/../prestashopUNOW/themes/classic-rocket/templates/catalog/_partials/product-add-to-cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
@@ -473,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret column="79958" lean-forward="true" selection-start-column="79958" selection-end-column="79958" />
+        <state relative-caret-position="115">
+          <caret column="157783" selection-start-column="157783" selection-end-column="157783" />
           <folding>
             <element signature="e#22452#22703#2" expanded="true" />
             <element signature="e#23300#23470#1" expanded="true" />
@@ -490,6 +486,13 @@
             <element signature="e#166412#167445#2" expanded="true" />
             <element signature="e#168345#170086#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/controller/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="927" column="142" selection-start-line="927" selection-start-column="141" selection-end-line="927" selection-end-column="142" />
         </state>
       </provider>
     </entry>
