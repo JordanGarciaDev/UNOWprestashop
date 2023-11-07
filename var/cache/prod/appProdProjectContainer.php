@@ -16,6 +16,6 @@ if (!\class_exists(appProdProjectContainer::class, false)) {
 
 return new \Container5bxwimp\appProdProjectContainer([
     'container.build_hash' => '5bxwimp',
-    'container.build_id' => '5f0ff9c3',
-    'container.build_time' => 1699367051,
+    'container.build_id' => '0bb87e24',
+    'container.build_time' => 1699369142,
 ], __DIR__.\DIRECTORY_SEPARATOR.'Container5bxwimp');

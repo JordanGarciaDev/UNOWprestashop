@@ -40,9 +40,11 @@
                                     {if !$product.add_to_cart_url}
                                         disabled
                                     {/if}
-                                    data-loading-text="Añadiendo..." id="add-cart" class="btn js-article-add-to-cart btn-lg addCar btn-secondary-outline GTM-addToCart js-pcc-open-cart
-             c-pccom-button__add add-to-cart js-add-to-cart"><i class="pccom-icon">}</i><i
-                                        class="pccom-icon arrow">¥</i><span>{l s='Add to cart' d='Shop.Theme.Actions'}</span></button>
+                                    data-loading-text="Añadiendo..." id="add-cart" class="btn btn-lg addCar btn-secondary-outline GTM-addToCart c-pccom-button__add add-to-cart  js-pcc-open-cart js-add-to-cart">
+                                <i class="pccom-icon">}</i>
+                                <i class="pccom-icon arrow">¥</i>
+                                <span>{l s='Add to cart' d='Shop.Theme.Actions'}</span>
+                            </button>
 
 
                             <span class="js-article-add-to-cart btn-lg addCar btn-secondary-outline hidden-sm-down

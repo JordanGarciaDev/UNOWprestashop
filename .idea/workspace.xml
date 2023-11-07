@@ -4,9 +4,8 @@
     <list default="true" id="c9c6dae9-bfcf-46ee-a94a-7fb2bbaaf8f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/controller/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/controller/FrontController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/miniatures/product.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/miniatures/product.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/classic-rocket/assets/css/skeletons-93a9cb4de3.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket/assets/css/skeletons-93a9cb4de3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/classic-rocket/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,28 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/catalog/product.tpl">
+        <entry file="file://$PROJECT_DIR$/classes/controller/FrontController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="686" lean-forward="true" selection-start-line="686" selection-end-line="686" />
+            <state relative-caret-position="151">
+              <caret line="1993" column="7" lean-forward="true" selection-start-line="1993" selection-start-column="7" selection-end-line="1993" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl">
+        <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/miniatures/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/classic-rocket/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="227">
+              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -47,9 +37,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add-to-cart-or-refresh</find>
-      <find>.modal-dialog</find>
-      <find>.modal.show</find>
       <find>article-detail-1106a1ae58.css</find>
       <find>.modal</find>
       <find>.bootstrap-touchspin</find>
@@ -77,6 +64,9 @@
       <find>.modal-body{</find>
       <find>miniatures/product.tpl</find>
       <find>ARTÍCULOS RECOMENDADOS</find>
+      <find>PRODUCTOS DESTACADOS</find>
+      <find>PROMOCION</find>
+      <find>SETmedia</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -114,17 +104,19 @@
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/product-details.tpl" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/product-tabs.tpl" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css" />
+        <option value="$PROJECT_DIR$/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" />
+        <option value="$PROJECT_DIR$/themes/classic-rocket/assets/css/skeletons-93a9cb4de3.css" />
+        <option value="$PROJECT_DIR$/themes/classic-rocket/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" />
         <option value="$PROJECT_DIR$/classes/controller/FrontController.php" />
         <option value="$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/miniatures/product.tpl" />
-        <option value="$PROJECT_DIR$/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="1553" />
-    <option name="height" value="840" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -177,18 +169,18 @@
       <option name="presentableId" value="Default" />
       <updated>1699315375481</updated>
       <workItem from="1699315379844" duration="18393000" />
-      <workItem from="1699364188012" duration="2748000" />
+      <workItem from="1699364188012" duration="3701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21141000" />
+    <option name="totallyTimeSpent" value="22094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22147651" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -448,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/controller/FrontController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="926" column="117" lean-forward="true" selection-start-line="926" selection-start-column="94" selection-end-line="926" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -477,17 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/miniatures/product.tpl">
+    <entry file="file://$PROJECT_DIR$/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="624">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>
@@ -498,10 +476,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl">
+    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/modules/ps_categoryproducts/views/templates/hook/ps_categoryproducts.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="511">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/assets/css/skeletons-93a9cb4de3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14022" selection-start-column="14022" selection-end-column="14022" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/controller/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="1993" column="7" lean-forward="true" selection-start-line="1993" selection-start-column="7" selection-end-line="1993" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/catalog/_partials/miniatures/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="56" />
         </state>
       </provider>
     </entry>

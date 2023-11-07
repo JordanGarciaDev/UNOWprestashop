@@ -396,7 +396,7 @@ class FrontControllerCore extends Controller
             }
             /* Select an address if not set */
             if (isset($cart) && (!isset($cart->id_address_delivery) || $cart->id_address_delivery == 0 ||
-                !isset($cart->id_address_invoice) || $cart->id_address_invoice == 0) && $this->context->cookie->id_customer) {
+                    !isset($cart->id_address_invoice) || $cart->id_address_invoice == 0) && $this->context->cookie->id_customer) {
                 $to_update = false;
                 if (!isset($cart->id_address_delivery) || $cart->id_address_delivery == 0) {
                     $to_update = true;
