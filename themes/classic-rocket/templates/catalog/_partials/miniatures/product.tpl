@@ -23,60 +23,61 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='product_miniature_item'}
+<div class="product">
+<a class="GTM-productClick link-item" target="_self" href="{$product.url}">
+    <div class="promo-label" style="display: block;">
+        <span class="promocion">Promoción</span>
+    </div>
+    <div class="image-container">
 
-    <!-- CARD -->
-    <div id="pprod-data-125335" class="recommended-pack__option-wrapper" data-product-list="cross-sell: pack crossseliing - adobe target" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}">
-        <label class="recommended-pack__option">
-            <div class="recommended-pack__option-name">{$product.name|truncate:30:'...'}</div>
-            <div class="recommended-pack__option-price">
-                {if $product.has_discount}
-                    {hook h='displayProductPriceBlock' product=$product type="old_price"}
+        {if $product.cover}
+            <img
+                    data-src = "{$product.cover.bySize.home_default.url}"
+                    alt = "{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name|truncate:30:'...'}{/if}"
+                    data-full-size-image-url = "{$product.cover.large.url}"
+                    class="image lazyload"
+            >
+        {elseif isset($urls.no_picture_image)}
+            <img class="image lazyload" src="{$urls.no_picture_image.bySize.home_default.url}">
+        {else}
+            <img class="image lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">
+        {/if}
+
+    </div>
+    <span class="title">{$product.name|truncate:30:'...'}</span>
+    <span class="description">
+        <div class="actual">
+            {hook h='displayProductPriceBlock' product=$product type="old_price"}
+                    {if $product.price}
+                    {$product.price}
+                    {else}
                     {$product.regular_price}
-                {/if}
+                    {/if}
+        </div>
+        <div class="price-layer">
+            <div class="old">
+                {if $product.has_discount}
+            {hook h='displayProductPriceBlock' product=$product type="old_price"}
+            {$product.regular_price}
+            {/if}
             </div>
-            <div class="recommended-pack__option-img-container">
-                {if $product.cover}
-                    <img
-                            data-src = "{$product.cover.bySize.home_default.url}"
-                            alt = "{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name|truncate:30:'...'}{/if}"
-                            data-full-size-image-url = "{$product.cover.large.url}"
-                            class="lazyload"
-                    >
-                {elseif isset($urls.no_picture_image)}
-                    <img class="recommended-pack__option-img lazyload" src="{$urls.no_picture_image.bySize.home_default.url}">
-                {else}
-                    <img class="recommended-pack__option-img lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">
+            <div class="discount">
+                {if $product.has_discount}
+            {if $product.discount_type === 'percentage'}
+               {l s='%percentage%' d='Shop.Theme.Catalog' sprintf=['%percentage%' => $product.discount_percentage_absolute]}
+            {else}
+                  {l s='%amount%' d='Shop.Theme.Catalog' sprintf=['%amount%' => $product.discount_to_display]}
                 {/if}
-            </div>
-            <input type="checkbox" class="recommended-pack__option-input" checked="" onchange="handleChange(event)">
-            <div class="recommended-pack__option-mask"></div>
-            <div class="recommended-pack__option-border"></div>
-            <div class="recommended-pack__option-check"></div>
-        </label>
-        <div class="recommended-pack__nav">
-            <span class="recommended-pack__nav-hover-trigger">
-              <span class="c-icon c-icon--menu-points">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24" fill="#444444">
-                  <circle cx="12" cy="5" r="2"></circle>
-                  <circle cx="12" cy="12" r="2"></circle>
-                  <circle cx="12" cy="19" r="2"></circle>
-                </svg>
-               </span>
-            </span>
-
-
-            <div class="recommended-pack__nav-hover-content">
-                <a class="recommended-pack__option-details" target="_self" href="{$product.url}">
-                <span class="c-icon c-icon--eye">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" enable-background="new 0 0 24 24">
-                    <path d="M12.015 7c4.751 0 8.063 3.012 9.504 4.636-1.401 1.837-4.713 5.364-9.504 5.364-4.42 0-7.93-3.536-9.478-5.407 1.493-1.647 4.817-4.593 9.478-4.593zm0-2c-7.569 0-12.015 6.551-12.015 6.551s4.835 7.449 12.015 7.449c7.733 0 11.985-7.449 11.985-7.449s-4.291-6.551-11.985-6.551zm-.015 5c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm0-2c-2.209 0-4 1.792-4 4 0 2.209 1.791 4 4 4s4-1.791 4-4c0-2.208-1.791-4-4-4z"></path>
-                   </svg>
-                </span>
-                    <span>Ver detalles</span>
-                </a>
+          {/if}
             </div>
         </div>
-    </div>
+    </span>
+</a>
+<div class="link-button">
+    <a class="link-btn" target="_self" href="{$product.url}">
+        Ver detalle
+    </a>
+</div>
     <!-- END CARD -->
-
+</div>
 {/block}

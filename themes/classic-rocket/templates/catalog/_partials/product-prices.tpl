@@ -28,10 +28,8 @@
 
         <div class="row ">
             <div class="col-xs-12">
-                <div class="priceBlock" id="priceBlock" data-baseprice="79.94" data-price="79.94" data-tax="1.21"
-                     data-discount="0">
-                    <div class="precioMain h1" id="precio-main" data-price="79.94" data-baseprice="79.94" data-tax="1.21"
-                         data-discount="0">
+                <div class="priceBlock" id="priceBlock">
+                    <div class="precioMain h1" id="precio-main">
                         {*divido el string para poder darle clase a cada numero*}
                         {assign var=valorProd value=","|explode:$product.price}
 
