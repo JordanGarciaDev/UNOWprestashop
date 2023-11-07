@@ -1,0 +1,5 @@
+"Product ID";Imagen;Nombre;Referencia;Categoría;"Precio (imp. excl.)";"Precio (imp. incl.)";Cantidad;Estado;Posición
+21;http://localhost/prestashopUNOW/25/seagate-barracuda-35-1tb-sata3.jpg;"Seagate BarraCuda 3.5"" 1TB SATA3";456123;Componentes;50.120000;50.12;10;0
+20;http://localhost/prestashopUNOW/24/nfortec-draco-v2-cristal-templado-usb-30-rgb-blanco.jpg;"Nfortec Draco V2 Cristal Templado USB 3.0 RGB Blanco";217047;Componentes;67.990000;67.99;1000;0
+2;http://localhost/prestashopUNOW/21/brown-bear-printed-sweater.jpg;"Hummingbird printed sweater";demo_3;Women;35.900000;43.44;2100;0
+1;http://localhost/prestashopUNOW/1/hummingbird-printed-t-shirt.jpg;"Hummingbird printed t-shirt";demo_1;Men;23.900000;28.92;2400;0
