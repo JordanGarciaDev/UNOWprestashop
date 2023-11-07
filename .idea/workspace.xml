@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c9c6dae9-bfcf-46ee-a94a-7fb2bbaaf8f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/classic-rocket.zip" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/classic-rocket/templates/checkout/_partials/cart-summary-totals.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket/templates/checkout/_partials/cart-summary-totals.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/classic-rocket/templates/checkout/cart.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/classic-rocket/templates/checkout/cart.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/checkout/cart.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="47" column="77" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/checkout/cart-empty.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="70" />
+            <state relative-caret-position="400">
+              <caret line="62" column="77" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -85,9 +79,9 @@
       <find>modal-footer</find>
       <find>blockcart-modal</find>
       <find>icons&quot;&gt;chevron_left&lt;</find>
-      <find>.modal.show .modal-dialog</find>
       <find>chevron_left&lt;/i&gt;{l s='Continue shopping' d='Shop.Theme.Actions'}</find>
       <find>Continue shopping</find>
+      <find>.modal.show .modal-dialog</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -136,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
@@ -194,15 +188,15 @@
       <updated>1699315375481</updated>
       <workItem from="1699315379844" duration="18393000" />
       <workItem from="1699364188012" duration="3701000" />
-      <workItem from="1699369307835" duration="1413000" />
+      <workItem from="1699369307835" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23507000" />
+    <option name="totallyTimeSpent" value="23616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22147651" />
@@ -464,6 +458,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/checkout/cart-empty.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic-rocket/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -488,15 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/checkout/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="47" column="77" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/classic-rocket/templates/checkout/cart-empty.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="32" column="70" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="70" />
+        <state relative-caret-position="400">
+          <caret line="62" column="77" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
         </state>
       </provider>
     </entry>

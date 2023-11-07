@@ -396,7 +396,7 @@ class FrontControllerCore extends Controller
             }
             /* Select an address if not set */
             if (isset($cart) && (!isset($cart->id_address_delivery) || $cart->id_address_delivery == 0 ||
-                    !isset($cart->id_address_invoice) || $cart->id_address_invoice == 0) && $this->context->cookie->id_customer) {
+                !isset($cart->id_address_invoice) || $cart->id_address_invoice == 0) && $this->context->cookie->id_customer) {
                 $to_update = false;
                 if (!isset($cart->id_address_delivery) || $cart->id_address_delivery == 0) {
                     $to_update = true;
@@ -924,6 +924,7 @@ class FrontControllerCore extends Controller
      */
     public function setMedia()
     {
+        $this->context->controller->registerStylesheet('theme-cart-product', '/assets/css/checkout-process-0bb5921df3', ['media' => 'all', 'priority' => 9]);
         $this->context->controller->registerStylesheet('theme-featured-product', '/assets/css/skeletons-93a9cb4de3.css', ['media' => 'all', 'priority' => 9]);
         $this->context->controller->registerStylesheet('theme-custom-product', '/assets/css/article-detail-1106a1ae58.css', ['media' => 'all', 'priority' => 10]);
         $this->context->controller->registerStylesheet('font-css-product', '/assets/css/font-pccom-v2.css', ['media' => 'all', 'priority' => 3]);
