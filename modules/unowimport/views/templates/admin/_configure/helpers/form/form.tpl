@@ -43,7 +43,7 @@
             <div class="col-xs-6">
                 {if $input.name=='id_reference'}
                     <div style="text-align: right">
-                        <span style="color:#00aff0">&#9660;</span> 
+                        <span style="color:#ff6000">&#9660;</span>
                         {l s='You can enter custom value that will be applied to all products.' mod='unowimport'}
                         {l s='It will be used if value is missing in import file.' mod='unowimport'}
                     </div>
@@ -74,7 +74,7 @@
             <div class="col-xs-6 col-md-8">
                 {if $input.name=='product_id'}
                     <div>
-                        <span style="color:#00aff0">&#9660;</span> 
+                        <span style="color:#ff6000">&#9660;</span>
                         {l s='You can enter custom value that will override actual data for the corresponding product property.' mod='unowimport'}
                     </div>
                 {else}

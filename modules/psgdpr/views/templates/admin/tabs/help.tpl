@@ -27,7 +27,7 @@
                 <img src="{$logo_path|escape:'htmlall':'UTF-8'}" alt=""/>
             </div>
             <div class="right">
-                <p><span class="data_label" style="color:#00aff0;"><b>{l s='This module allows you to :' mod='psgdpr'}</b></span></p>
+                <p><span class="data_label" style="color:#ff6000;"><b>{l s='This module allows you to :' mod='psgdpr'}</b></span></p>
                 <br>
                 <div>
                     <div class="numberCircle">1</div>
